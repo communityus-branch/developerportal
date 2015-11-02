@@ -13,17 +13,16 @@ entries:
       print: true
 
       items:
-        - title: Cover
-          url: /titlepage/
+        - title: Getting started
+          url: /getting_started/
           audience: writer, designer
           platform: all
           product: all
           version: all
           print: true
-          web: false
 
-        - title: Getting started
-          url: /getting_started/
+        - title: Metrics
+          url: /metrics/
           audience: writer, designer
           platform: all
           product: all
@@ -38,13 +37,22 @@ entries:
           version: all
           print: true
 
-        - title: Metrics
-          url: /metrics/
+        - title: Getting Optimal Results
+          url: /gettingbestresults/
           audience: writer, designer
           platform: all
           product: all
           version: all
           print: true
+
+        - title: On Privacy
+          url: /privacy/
+          audience: writer, designer
+          platform: all
+          product: all
+          version: all
+          print: true
+
 
     - title: Platforms
       audience: writer, designer
@@ -78,81 +86,6 @@ entries:
           version: all
           print: true
 
-
-    - title: Tag archives
-      audience: designer, writer
-      platform: all
-      product: all
-      version: all
-      print: false
-      web: false
-      
-      items:
-      - title: Overview
-        url: /tag-archives-overview/
-        audience: writer, designer
-        platform: all
-        product: all
-        version: all
-        print: false
-
-        thirdlevel: #demo's how to add a third level to the sidebar nav.
-          - title: Third level title
-            audience: writer, designer
-            platform: all
-            product: all
-            version: all
-            print: false
-              
-            thirdlevelitems:
-               - title: Overview pages
-                 url: /tag-overview/
-                 audience: writer, designer
-                 platform: all
-                 product: all
-                 version: all
-                 print: false
-
-               - title: Getting Started pages
-                 url: /tag-getting-started/
-                 audience: writer, designer
-                 platform: all
-                 product: all
-                 version: all
-                 print: false
-
-               - title: Single Sourcing pages
-                 url: /tag-single-sourcing/
-                 audience: writer, designer
-                 platform: all
-                 product: all
-                 version: all
-                 print: false
-
-               - title: Publishing pages
-                 url: /tag-publishing/
-                 audience: writer, designer
-                 platform: all
-                 product: all
-                 version: all
-                 print: false
-
-               - title: Formatting pages
-                 url: /tag-formatting/
-                 audience: writer, designer
-                 platform: all
-                 product: all
-                 version: all
-                 print: false
-
-               - title: Special layout pages
-                 url: /tag-special-layouts/
-                 audience: writer, designer
-                 platform: all
-                 product: all
-                 version: all
-                 print: false
-
     - title: See Also
       audience: writer, designer
       platform: all
@@ -161,23 +94,23 @@ entries:
       print: true
 
       items:
-        - title: Sample Code
-          url: /samplecode/
+        - title: Sample Apps
+          url: /sampleapps/
           audience: writer, designer
           platform: all
           product: all
           version: all
           print: true
 
-        - title: Supported File Types
-          url: /supportedfiletypes/
+        - title: Supported Video Formats
+          url: /supportedvideoformats/
           audience: writer, designer
           platform: all
           product: all
           version: all
           print: true
 
-        - title: Facial Point Indices
+        - title: Facial Landmarks
           url: /fpi/
           audience: writer, designer
           platform: all
@@ -185,12 +118,45 @@ entries:
           version: all
           print: true
           
-        - title: Academic Papers 
-          external_url: http://www.affectiva.com/research-on-emotion/
+        - title: FAQ
+          url: /faq/
           audience: writer, designer
           platform: all
           product: all
           version: all
           print: true
-                    
-      
+          web: false
+
+    - title: Tag archives
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      web: false
+      items:
+
+          thirdlevel:
+            - title: Tag archive pages
+              audience: writers, designers
+              platform: all
+              version: all
+              product: all
+              print: false
+              thirdlevelitems:
+                - title: Getting started pages
+                  url: /tag-getting-started.html
+                  audience: writers, designers
+                  platform: all
+                  version: all
+                  product: all
+                  print: false
+
+                - title: Formatting pages
+                  url: /tag-formatting.html
+                  audience: writers, designers
+                  platform: all
+                  version: all
+                  product: all
+                  print: false
+

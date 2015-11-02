@@ -10,29 +10,29 @@ version: all
 
 topnav_title: Affdex Developer Portal
 
-topnav_version:
+topnav_version: ""
 
 homepage_title: Affdex Developer Portal 
 
 site_title: Affdex Developer Portal
 
-tagline: Guide for developers
+tagline: " "
 
-baseurl: "/developerportal"
+baseurl: ""
 
 port: 4006
 
 host: 127.0.0.1 
 
-url: "http://benjaminanding.github.io/"
+url: "http://developer.affectiva.com/"
 
-feedback_email: SDK@affectiva.com
+feedback_email: sdk@affectiva.com
 
 sidebar_accordion: true
 
-disqus_shortname: 
+disqus_shortname: ""
 
-google_analytics:  
+google_analytics: "UA-68020802-1"
 
 markdown: redcarpet
 
@@ -52,6 +52,7 @@ exclude:
   - bower_components
   - .idea 
   - _site
+  - vendor
 
 permalink: :title
 
@@ -87,3 +88,15 @@ sass:
 collections:
   tooltips:
     output: true
+
+jekyll_ga:
+  service_account_email: 464803498504-m8ppb27dqp3dfodutnrlp628ls7mmuc3@developer.gserviceaccount.com  # service account email address
+  key_file: privatekey.p12  # service account private key file
+  key_secret: notasecret    # service account private key's password
+  profileID: ga:108954658   # profile ID
+  start: last month         # Beginning of report
+  end: now                  # End of report
+  metric: ga:pageviews      # Metric code
+  segment:                  # optional
+  filters:                  # optional
+  sort: true                # Sort posts by this metric
