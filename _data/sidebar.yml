@@ -62,7 +62,7 @@ entries:
       print: true
       items:
           
-        - title: Android Overview
+        - title: Android
           url: /android/
           audience: writers, designers
           platform: all
@@ -75,7 +75,7 @@ entries:
               platform: all
               version: all
               product: all
-              print: false
+              web: false
               thirdlevelitems:
                 - title: 2.0
                   external_url: /acd2_0/
@@ -83,9 +83,9 @@ entries:
                   platform: all
                   version: all
                   product: all
-                  print: false
+                  web: false
 
-        - title: iOS Overview
+        - title: iOS
           url: /ios/
           audience: writer, designer
           platform: all
@@ -99,7 +99,7 @@ entries:
               platform: all
               version: all
               product: all
-              print: false
+              web: false
               thirdlevelitems:
                 - title: 2.0
                   external_url: /icd2_0/
@@ -107,9 +107,9 @@ entries:
                   platform: all
                   version: all
                   product: all
-                  print: false
+                  web: false
 
-        - title: Windows Overview
+        - title: Windows
           url: /windows/
           audience: writer, designer
           platform: all
@@ -123,7 +123,7 @@ entries:
               platform: all
               version: all
               product: all
-              print: false
+              web: false
               thirdlevelitems:
                 - title: 2.0
                   external_url: /wcd2_0/
@@ -131,7 +131,7 @@ entries:
                   platform: all
                   version: all
                   product: all
-                  print: false
+                  web: false
 
     - title: See Also
       audience: writer, designer
