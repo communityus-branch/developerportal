@@ -1,0 +1,16 @@
+- platform: Android
+  subitems:
+    - version: 2.0
+      url: http://affdex-sdk-dist.s3-website-us-east-1.amazonaws.com/android/download_sdk.html
+    
+- platform: iOS
+  subitems:
+    - version: 2.0
+      url: http://affdex-sdk-dist.s3-website-us-east-1.amazonaws.com/ios/download_sdk.html
+  
+- platform: Windows
+  subitems:
+    - version: 2.0 64bit
+      url: http://affdex-sdk-dist.s3-website-us-east-1.amazonaws.com/windows/download_sdk_64.html
+    - version: 2.0 32bit
+      url: http://affdex-sdk-dist.s3-website-us-east-1.amazonaws.com/windows/download_sdk.html
