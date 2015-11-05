@@ -5,10 +5,10 @@ metadata: false
 ---
 ## SDK Downloads
 
-Select from the table the SDK package for the platform you will be developing on.
-The Android SDK comes as an uncompressed folder.
-The iOS SDK comes as a .tar folder.
-The Windows SDKs come as self extracting executables.
+Select from the table the SDK package for the platform you will be developing on.  
+The Android SDK comes as an uncompressed folder.  
+The iOS SDK comes as a .tar folder.  
+The Windows SDKs come as self extracting executables.  
 
 ### Downloads
 
