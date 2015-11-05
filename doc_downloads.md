@@ -2,9 +2,6 @@
 title:  
 permalink: /downloads/
 metadata: false
-output:
-    html_document:
-        css: styles.css
 ---
 ## SDK Downloads
 
@@ -15,7 +12,7 @@ The Windows SDKs come as self extracting executables.
 
 ### Downloads
 
-<table border="2" style="width:60%">
+<table border="1" style="width:60%">
 <tr>
 <th style="background-color:#c0c0c0;"><center>Platform</center></th>
 <th style="background-color:#c0c0c0;"><center>Version</center></th>
