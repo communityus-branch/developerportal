@@ -18,7 +18,7 @@ site_title: Affdex Developer Portal
 
 tagline: " "
 
-baseurl: ""
+baseurl: "http://benjaminanding.github.io/"
 
 port: 4006
 
