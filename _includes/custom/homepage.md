@@ -7,12 +7,13 @@ Based on Affectiva’s highly accurate and patented science, the Affdex SDK prov
 
 The Features of the Affdex SDK include:
 
-* Capture facial expressions of emotion and feedback of emotion metrics in real time.
+* Captures facial expressions of emotion and feedback of emotion metrics in real time.
 * Processes data obtained from optical sensors, such as a web camera, a video file, or still images.
-* Flexible and easy to use API.
-* Measures 7 emotions and 15 highly nuanced facial expressions.
-* Two alternative metrics for measuring the emotional experience: valence and engagement.
-* All processing done on device -- no videos or images sent to our cloud.
+* Supports tracking and analysis of multiple faces in frame.
+* Has a flexible and easy to use API.
+* Measures 7 emotions, 15 highly nuanced facial expressions, identifies presence or absence of glasses, and recognizes gender as well as 14 Emoji expressions.
+* Has two alternative metrics for measuring the emotional experience: valence and engagement.
+* All processing is done on device -- no videos or images sent to our cloud.
 
 ## Why Emotion-Enable Your Applications?
 
@@ -27,7 +28,7 @@ The Affdex SDK is built on Affectiva's industry-leading patented science. It’s
           
 Follow <a href=http://www.affdex.com/clients/affdex-resources/ target=_blank>this link</a> for more information on the science underlying the Affdex SDK.
 
-Available for [Android]({{ site.baseurl }}/android/), [iOS]({{ site.baseurl }}/ios/), and [Windows]({{ site.baseurl }}/windows/)  platforms.
+Available for [Android]({{ site.baseurl }}/android/), [iOS]({{ site.baseurl }}/ios/), [Windows]({{ site.baseurl }}/windows/), and [Unity]({{ site.baseurl }}/unity/)  platforms.
 
 ## Note
 
