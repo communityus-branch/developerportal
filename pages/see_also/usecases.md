@@ -26,9 +26,9 @@ Bentley Motor released a new luxury commissioning experience where your facial r
 
 Disney Pixar released a promotional game for the movie [Inside Out](http://www.insideouthq.com/) which is powered by our technology. 
 
-Our resident hacker and Mobile Visionary Boisy G. emotion enabled an Arduino development board to control lights via an iPad app that recognizes emotion. He also emotion enabled Sphero's "BB-8" robot to respond to emotions. Read about the Arduino project [here](http://www.affectiva.com/blog/emotions-as-feedback-versus-control/), and see the BB-8 video below:
+Our resident hacker and Mobile Visionary Boisy Pitre emotion enabled an Arduino development board to control lights via an iPad app that recognizes emotion. He also emotion enabled Sphero's "BB-8" robot to respond to emotions. Read about the Arduino project [here](http://www.affectiva.com/blog/emotions-as-feedback-versus-control/), and see the BB-8 video below:
 
-<iframe width="420" height="315"
+<center><iframe width="420" height="315"
 src="http://www.youtube.com/embed/6QDMNPhMJI4">
-</iframe>
+</iframe></center>
 

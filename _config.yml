@@ -18,13 +18,13 @@ site_title: Affdex Developer Portal
 
 tagline: " "
 
-baseurl: "http://benjaminanding.github.io/developerportal"
+baseurl: ""
 
 port: 4006
 
 host: 127.0.0.1 
 
-url: "http://benjaminanding.github.io/developerportal"
+url: "http://developer.affectiva.com/"
 
 feedback_email: sdk@affectiva.com
 
