@@ -165,9 +165,9 @@ setDetectSmile(true);
 *   Call <code>start()</code> to start processing. You will start receiving calls to <code>onImageResults()</code>. 
 *   When you are done processing, call <code>stop()</code>. 
 
-## Pushed Frame Mode
+### Pushed Frame Mode
 
-If your app is processing video and has access to video frames, you can push those video frames to the Affdex SDK for processing.  Each video frame has an associated timestamp that increases with each frame in the video.  Your app may have access to video frames because your app is interfacing to the device’s camera, or because your app is reading a video file, or perhaps by some other method.
+If your app is processing video and has access to video frames, you can push those video frames to the Affdex SDK for processing.  Each video frame has an associated timestamp that increases with each frame in the video.  Your app may have access to video frames because your app is interfacing to the device’s camera, or because your app is reading a video file, or perhaps by some other method. The <code>maxNumFaces</code> argument indicates the maximum number of faces that the system should try to track (may slow down the system if value is too high), and the <code>faceDetectorMode</code> argument is a flag to specify if the system is tracking large (up close) or small (farther away) faces. (Possible values are <code>Detector.FaceDetectorMode.LARGE_FACES</code> or <code>Detector.FaceDetectorMode.SMALL_FACES</code>.  
 
 *   Construct a FrameDetector.  
 ```
@@ -195,7 +195,7 @@ public abstract void process(Frame frame, float timestamp);
 
 ### Photo Mode
 
-Use Photo Mode for processing images that are unrelated to each other (that is, they are not sequential frames of a video). Discrete images are processed by the SDK independently, without regard to the content of the preceding images, using different algorithms and data than are used with the other modes involving sequences of frames from a video source. 
+Use Photo Mode for processing images that are unrelated to each other (that is, they are not sequential frames of a video). Discrete images are processed by the SDK independently, without regard to the content of the preceding images, using different algorithms and data than are used with the other modes involving sequences of frames from a video source. The <code>maxNumFaces</code> argument indicates the maximum number of faces that the system should try to track (may slow down the system if value is too high), and the <code>faceDetectorMode</code> argument is a flag to specify if the system is tracking large (up close) or small (farther away) faces. (Possible values are <code>Detector.FaceDetectorMode.LARGE_FACES</code> or <code>Detector.FaceDetectorMode.SMALL_FACES</code>.  
 
 *   Construct a PhotoDetector.  
 ```
@@ -262,7 +262,7 @@ This method receives these parameters:
 2.  The image processed, as an Affdex Frame (a wrapper type for images, including Bitmaps, for example).
 3.  The timestamp of the frame.  In Photo Mode, this will be zero.
 
-The returned Face object contains five accessible inner objects: appearance, emoji, emotions, expressions, and measurements. Each of these inner objects has getter methods for retrieving the scores detected for each metric. For example, the smile score can be retrieved by calling <code>face.expressions.getSmile()</code> 
+The returned Face object contains five accessible inner objects: appearance, emoji, emotions, expressions, and measurements. Each of these inner objects has getter methods for retrieving the scores detected for each metric. For example, the smile score can be retrieved by calling <code>face.expressions.getSmile()</code>  
 The appearance metrics are enumerations that include identification of gender as male, female or unknown, as well as the detection of the presence or absence of worn glasses.  
 The follow code sample shows an example of how to retrieve metric values from the Face object in <code>onImageResults</code>:  
 
