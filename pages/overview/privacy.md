@@ -3,9 +3,9 @@ title: On Privacy
 permalink: /privacy/
 audience: writer, designer
 tags: overview
-keywords: 
-last_updated: 
-summary: 
+keywords:
+last_updated:
+summary:
 metadata: false
 ---  
 
