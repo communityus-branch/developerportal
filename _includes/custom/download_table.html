@@ -86,9 +86,9 @@ var trackOutboundLink = function(url, platform, version, architecture) {
             <a href="{{ build.install }}" target="_blank" onclick="trackOutboundLink('{{ build.install }}', '{{ platform.name }}', '{{ build.version }}', '{{ build.architecture }}'); return false;">Install</a>
             {% endif %}
           </td>
-        
+        </tr>
       {% endfor %}
     {% endif %}
     {% endfor %}
-  </tr>
-</table>d
+  
+</table>
