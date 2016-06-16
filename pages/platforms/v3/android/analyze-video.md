@@ -8,9 +8,8 @@ last_updated:
 summary:
 metadata: false
 ---
-**classdoc:** [VideoDetector]({{ site.baseurl }}/pages/platforms/v3/android/javadoc/com/affectiva/android/affdex/sdk/detector/VideoFileDetector.html)
 
-
+**classdoc:** [[VideoDetector]({{ site.baseurl }}/pages/platforms/v3/android/javadoc/com/affectiva/android/affdex/sdk/detector/VideoFileDetector.html)]
 
 A common use of the SDK is to process previously captured video files. The ```VideoDetector``` helps streamline this effort by decoding and processing frames from a video file.
 
@@ -50,6 +49,7 @@ Example,
 String fileName = "/sdcard/movie.mp4";
 VideoDetector detector = new VideoDetector(this, fileName);
 ```
+
 {% include android/v3/detector/configure.md %}
 
 {% include android/v3/detector/set-interface-classes.md %}
@@ -60,4 +60,4 @@ VideoDetector detector = new VideoDetector(this, fileName);
 
 Once `start()` is called, the video frames are decoded, processed and the callback functions are used to notify of the decoded frames, results.
 
-{% include windows/v3/detector/stop.md %}
+{% include android/v3/detector/stop.md %}

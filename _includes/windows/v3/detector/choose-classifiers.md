@@ -1,5 +1,5 @@
 ### Choosing the classifiers
-Next step is to turn on the detection of the metrics needed. For example, to set on or off the detection of the smile and joy classifiers:  
+The next step is to turn on the detection of the metrics needed. For example, to turn on or off the detection of the smile and joy classifiers:  
 
 ```csharp
 detector.setDetectSmile(true);
@@ -14,7 +14,7 @@ detector.setDetectAllEmotions(true);
 detector.setDetectAllEmojis(true);
 ```
 
-To check the status of a detector at any time, for example smile:
+To check the status of a classifier at any time, for example smile:
 
 ```csharp
 detector.getDetectSmile();
